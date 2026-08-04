@@ -1,0 +1,4 @@
+Notepads are used mainly for text. You can't write code well in it. Notepads also dont have ai grammar.
+People who code and take notes will use this.
+Current solutions are two separate apps one for coding and one for text and they are not simple and dont use ai.
+My notepad app will be very fast because you can toggle between text interface for speed and graphical and there will be an ai that can debug you code and fix your grammar and spelling.
