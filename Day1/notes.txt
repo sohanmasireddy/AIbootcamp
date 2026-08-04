@@ -6,3 +6,4 @@ pwd shows what directory youre in
 cd .. takes you back one
 mkdir makes new directory
 touch makes new file
+Enable readme always
