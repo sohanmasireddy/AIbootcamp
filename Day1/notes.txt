@@ -1,0 +1,8 @@
+git clone clones repository to local computer
+git push origin main/master pushes updates from local to github main branch
+git status shows file status
+git commit -m adds commit message
+pwd shows what directory youre in
+cd .. takes you back one
+mkdir makes new directory
+touch makes new file
