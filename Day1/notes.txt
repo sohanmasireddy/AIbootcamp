@@ -1,5 +1,5 @@
 git clone clones repository to local computer
-git push origin main/master pushes updates from local to github main branch
+git push origin -u main/master pushes updates from local to github main branch
 git status shows file status
 git commit -m adds commit message
 git commit
