@@ -1,4 +1,5 @@
-Notepads are used mainly for text. You can't write code well in it. Notepads also dont have ai grammar.
-People who code and take notes will use this.
-Current solutions are two separate apps one for coding and one for text and they are not simple and dont use ai.
-My notepad app will be very fast because you can toggle between text interface for speed and graphical and there will be an ai that can debug you code and fix your grammar and spelling.
+An AI-powered notepad built for both writing and coding.
+
+Most note-taking apps are designed primarily for text, while coding tools are built mainly for developers. People who write documentation, take technical notes, or learn programming often have to switch between multiple applications.
+
+This app combines both in one fast, lightweight workspace. Users can instantly switch between a distraction-free text mode and a richer graphical editing mode. Built-in AI helps by fixing grammar and spelling in written notes while also debugging, explaining, and improving code. Instead of juggling separate apps for writing and programming, users can do both in one place.
