@@ -1,12 +1,11 @@
 from openai import OpenAI
 
-# 1. DELETE THE OLD KEY AND PASTE YOUR REAL API KEY HERE
 key = "e055b7a1f83946da8fbc619eb5887ef3.bOrTjki1mc1OQbmBsNwyk9IM"
 
 model = "gpt-oss:20b"
 
 ai = OpenAI(
-    base_url="https://ollama.com/v1", # Make sure this matches your key's provider!
+    base_url="https://ollama.com/v1",
     api_key=key
 )
 
@@ -28,8 +27,8 @@ def fix():
         return
 
     note = ask(
-        "Fix the spelling and grammar. "
-        "Return only the fixed text:\n\n" + note
+        "Fix the code or text. "
+        "Return only the fixed text or code:\n\n" + note
     )
 
     print("\n" + note)
@@ -42,7 +41,7 @@ def generate():
 
     result = ask(
         "Write this for me. "
-        "Return only the text:\n\n" + prompt
+        "Return only the text or code:\n\n" + prompt
     )
 
     note += "\n" + result
@@ -52,7 +51,7 @@ def generate():
 while True:
 
     try:
-        print("\n--- AI NOTEPAD ---")
+        print("\n    AI NOTEPAD    ")
         print("Model:", model)
         print()
 
