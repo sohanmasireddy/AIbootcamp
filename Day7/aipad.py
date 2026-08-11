@@ -270,7 +270,6 @@ if st.session_state.panel == "generate":
 
         "What should AI generate?",
 
-        placeholder="Example: Write a Python calculator..."
 
     )
 
