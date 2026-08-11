@@ -218,7 +218,7 @@ with col1:
 
             run_ai(
 
-                "Fix the code or text. Return only the fixed text or code.\n\n"
+                "Fix the code and/or text. Return only the fixed text and/or code.\n\n"
 
                 + st.session_state.note,
 
@@ -282,7 +282,7 @@ if st.session_state.panel == "generate":
 
             run_ai(
 
-                "Generate this. Return only the text or code.\n\n" + prompt,
+                "Generate this. Return only the text and/or code.\n\n" + prompt,
 
                 "generate"
 
